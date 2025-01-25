@@ -2,6 +2,7 @@
 
 # Tiny Tapeout Wokwi Project Template
 
+Tinytape out for four bit ALU
 - [Read the documentation for project](docs/info.md)
 
 ## What is Tiny Tapeout?
