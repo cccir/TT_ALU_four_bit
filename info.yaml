@@ -16,23 +16,23 @@ project:
 pinout:
   # Inputs
   ui[0]: "clock"
-  ui[1]: "Operation bit 1"
-  ui[2]: "Operation bit 2"
-  ui[3]: "Operation bit 3"
+  ui[1]: "Opcode[0]"
+  ui[2]: "Opcode[1]"
+  ui[3]: "Opcode[2]"
   ui[4]: "Operand A bit 1 (MSB)"
   ui[5]: "Operand A bit 2"
   ui[6]: "Operand A bit 3"
   ui[7]: "Operand A bit 4 (LSB)"
 
   # Outputs
-  uo[0]: "Segment A"
-  uo[1]: "Segment B"
-  uo[2]: "Segment C"
-  uo[3]: "Segment D"
-  uo[4]: "Segment E"
-  uo[5]: "Segment F"
-  uo[6]: "Segment G"
-  uo[7]: "Segment DP"
+  uo[0]: "accumulator_0"
+  uo[1]: "accumulator_1"
+  uo[2]: "accumulator_2"
+  uo[3]: "accumulator_3"
+  uo[4]: ""
+  uo[5]: ""
+  uo[6]: ""
+  uo[7]: "carry"
 
   # Bidirectional pins
   uio[0]: ""
