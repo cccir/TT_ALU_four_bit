@@ -29,9 +29,9 @@ pinout:
   uo[1]: "Segment B"
   uo[2]: "Segment C"
   uo[3]: "Segment D"
-  uo[4]: ""
-  uo[5]: ""
-  uo[6]: ""
+  uo[4]: "Segment E"
+  uo[5]: "Segment F"
+  uo[6]: "Segment G"
   uo[7]: "Segment DP"
 
   # Bidirectional pins
