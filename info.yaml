@@ -25,14 +25,14 @@ pinout:
   ui[7]: "Operand A bit 4 (LSB)"
 
   # Outputs
-  uo[0]: "accumulator value 0th bit"
-  uo[1]: "accumulator value 1th bit"
-  uo[2]: "accumulator value 2th bit"
-  uo[3]: "accumulator value 3th bit"
+  uo[0]: "Segment A"
+  uo[1]: "Segment B"
+  uo[2]: "Segment C"
+  uo[3]: "Segment D"
   uo[4]: ""
   uo[5]: ""
   uo[6]: ""
-  uo[7]: "carry flag"
+  uo[7]: "Segment DP"
 
   # Bidirectional pins
   uio[0]: ""
