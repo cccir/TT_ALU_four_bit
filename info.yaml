@@ -16,13 +16,13 @@ project:
 pinout:
   # Inputs
   ui[0]: "clock"
-  ui[1]: "opcode 0th bit"
-  ui[2]: "opcode 1th bit"
-  ui[3]: "opcode 2th bit"
-  ui[4]: "operand 0th bit"
-  ui[5]: "operand 1th bit"
-  ui[6]: "operand 2th bit"
-  ui[7]: "operand 3th bit"
+  ui[1]: "Operation bit 1"
+  ui[2]: "Operation bit 2"
+  ui[3]: "Operation bit 3"
+  ui[4]: "Operand A bit 1 (MSB)"
+  ui[5]: "Operand A bit 2"
+  ui[6]: "Operand A bit 3"
+  ui[7]: "Operand A bit 4 (LSB)"
 
   # Outputs
   uo[0]: "accumulator value 0th bit"
